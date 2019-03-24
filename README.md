@@ -25,3 +25,7 @@ implementation 'com.android.support:design:28.0.0' // adding this one too becaus
 -showing location on maps 
 
 -sending sms 
+
+-opening the required location
+
+-opening web page from given url
