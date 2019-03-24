@@ -29,6 +29,7 @@
 
     <EditText
         android:id="@+id/enterNumber"
+        android:inputType="number"
         android:hint="@string/phone_num"
         android:backgroundTint="@color/black"
         android:layout_width="match_parent"

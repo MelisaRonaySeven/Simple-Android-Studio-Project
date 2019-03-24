@@ -26,4 +26,7 @@
     <string name="phone_num">Enter Your Phone Number</string>
     <string name="send">Send</string>
 
+    <!-- activity_make_call-->
+    <string name="call">Call</string>
+
 </resources>
