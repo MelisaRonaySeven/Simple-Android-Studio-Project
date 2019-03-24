@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageMovie">
+
+    <ImageView
+        android:id="@+id/takenPic"
+        android:background="@color/black"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <VideoView
+        android:id="@+id/videoPlayer"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/takenPic"
+        >
+    </VideoView>
+
+    <Button
+        android:id="@+id/takePhoto"
+        android:text="@string/take_photo"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/videoPlayer"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="70dp"
+        />
+
+    <Button
+        android:id="@+id/recordVideo"
+        android:text="@string/record_video"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/videoPlayer"
+        android:layout_toEndOf="@+id/takePhoto"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+</RelativeLayout>

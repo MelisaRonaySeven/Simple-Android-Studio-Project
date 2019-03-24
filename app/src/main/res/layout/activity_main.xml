@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/imageMovie"
+        android:text="@string/image_video"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:background="@color/green"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/voiceRecord"
+        android:text="@string/voice_record"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:background="@color/green_moss"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@+id/imageMovie"
+        android:layout_marginStart="10dp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/goMap"
+        android:text="@string/go_map"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:background="@color/turquoise"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageMovie"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@+id/voiceRecord"
+        />
+
+    <Button
+        android:id="@+id/goWeb"
+        android:text="@string/go_web"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:background="@color/soft_blue"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@id/goMap"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/voiceRecord"
+        />
+
+    <Button
+        android:id="@+id/sendSms"
+        android:text="@string/send_sms"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:background="@color/soft_blue_01"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_toStartOf="@+id/imageMovie"
+        android:layout_marginEnd="10dp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/makeCall"
+        android:text="@string/make_call"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:background="@color/purple"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_toStartOf="@id/goMap"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/sendSms"
+        />
+
+</RelativeLayout>

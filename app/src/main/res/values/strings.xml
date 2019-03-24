@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GYK_02</string>
+
+    <!-- activity_main -->
+    <string name="image_video">Image / Video</string>
+    <string name="voice_record">Voice Record</string>
+    <string name="go_map">Go To Map</string>
+    <string name="go_web">Website</string>
+    <string name="send_sms">Send Message</string>
+    <string name="make_call">Make Call</string>
+
+    <!-- activity_image_movie-->
+    <string name="take_photo">Take Photo</string>
+    <string name="record_video">Record Video</string>
+
+    <!-- activity_voice_record-->
+    <string name="record_audio">Record Audio</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="listen">Listen</string>
+
+    <!-- activity_go_map-->
+    <string name="location">Go To Location</string>
+
+    <!-- activity_send_sms-->
+    <string name="enter_message">Enter Your Message</string>
+    <string name="phone_num">Enter Your Phone Number</string>
+    <string name="send">Send</string>
+
+</resources>
