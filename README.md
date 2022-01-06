@@ -20,7 +20,7 @@ implementation 'com.android.support:design:28.0.0' // adding this one too becaus
 
 -using camera
 
--uaudio record 
+-audio record 
 
 -showing location on maps 
 
